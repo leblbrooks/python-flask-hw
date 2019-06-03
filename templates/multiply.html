@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Multiply Two Numbers</title>
+  </head>
+
+  <body>
+    <h2>
+      Show the result of 2 numbers the user enters on the home page to multiply.
+    </h2>
+    <h3>Type in 2 numbers to be multiplied below.</h3>
+    <!-- a get request to /multiply and a post request to /multiply -->
+    <form method="POST">
+      <label for="number1" id="number1">Number 1: </label>
+      <input
+        type="number"
+        name="num1"
+        id="number1"
+        min="1"
+        max="100"
+        label="number 1"
+      /><br />
+      <label for="number2" id="number2">Number 2: </label>
+      <input type="number" name="num2" id="number2" min="1" max="100" /><br />
+      <input type="submit" value="Submit" /><br />
+    </form>
+  </body>
+</html>
